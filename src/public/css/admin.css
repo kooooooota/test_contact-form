@@ -1,0 +1,202 @@
+.admin-panel__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.admin-panel__heading h2 {
+    font-family: century;
+    font-size: 24px;
+    color: #8B7969;
+    text-align: center;
+    margin: 50px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: space-between;
+    width: 907px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.contact-table {
+    width: 907px;
+    margin: 0 auto;
+}
+
+.contact-table__header-name {
+    width: 20%;
+    background: #8B7969;
+    color: #f4f4f4;
+    padding: 5px 0;
+    font-size: 15px;
+}
+
+.contact-table__header-gender {
+    width: 10%;
+}
+
+.contact-table__header-email {
+    width: 40%px;
+}
+
+.contact-table__inner {
+    margin: 0 auto;
+}
+
+.contact-table__row {
+    height: 50px;
+    margin: 0 auto;
+    border: #f4f4f4 solid 2px;
+}
+
+.contact-table__row:hover {
+    background-color: #F4F4F4;
+}
+
+input {
+    background-color: transparent;
+}
+
+.contact-table__row th {
+    background: #8B7969;
+    color: #f4f4f4;
+    padding: 5px 0;
+    font-size: 15px;
+}
+
+.contact-table__text-name {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-table__text-last_name {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50%;
+}
+
+.contact-table__text-first_name {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50%;
+}
+
+.contact-table__text input {
+    border: none;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    margin: 5px 15px;
+    color: #8B7969;
+}
+
+.contact-table__text-name input {
+    border: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    color: #8B7969;
+}
+
+.contact-table__text-last_name input {
+    text-align: center;
+}
+
+.contact-table__text-first_name input {
+    text-align: left;
+}
+
+.open-modal-btn {
+    width: 100px;
+    text-align: center;
+}
+
+.open-modal-btn-submit {
+    background: #FCFCFC;
+    border: #D9C6B5 solid 1px;
+    color: #D9C6B5;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.search-form__item-input {
+    display: inline-block;
+    width: 30%;
+    font-size: 13px;
+    background: #F4F4F4;
+    color: #8B7969;
+    border: #EDEAE6 solid 2px;
+}
+
+.search-form__item-select-gender {
+    font-size: 13px;
+    background: #F4F4F4;
+    color: #8B7969;
+    border: #EDEAE6 solid 2px;
+}
+
+.search-form__item-select-content {
+    width: 18%;
+    font-size: 13px;
+    background: #F4F4F4;
+    color: #8B7969;
+    border: #EDEAE6 solid 2px;
+}
+
+.search-form__item-calender {
+    font-size: 13px;
+    background: #F4F4F4;
+    color: #8B7969;
+    border: #EDEAE6 solid 2px;
+}
+
+.search-form__item-calender input[type="date"] {
+    /* デフォルトアイコンを非表示 */
+    background-image: none;
+}
+
+.search-form__button-submit {
+    width: 90px;
+    height: 100%;
+    background: #8B7969;
+    color: #f4f4f4;
+    border: none;
+    cursor: pointer;
+}
+
+.search-form__button a {
+    background: #D9C6B5;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 15px 15px;
+    margin-left: 10px;
+    border-radius: 1px;
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+.expt-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.expt-btn-submit {
+    background: #EDEAE6;
+    color: #8B7969;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.page {
+    display: flex;
+    justify-content: space-between;
+    width: 907px;
+    margin: 0 auto;
+}

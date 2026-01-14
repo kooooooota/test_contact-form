@@ -1,0 +1,158 @@
+.contant-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contact-form__heading h2 {
+    font-family: century;
+    font-size: 24px;
+    color: #8B7969;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    max-width: 800px;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__label--required {
+    padding: 4px 6px;
+    border-radius: 3px;
+    background: #ffffff;
+    color: red;
+}
+
+.form__group-title span {
+    font-size: 15px;
+    color: #8B7969;
+}
+
+.form__input--text {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 28px;
+    margin: 5px 0;
+}
+
+.form__input--text-tel {
+    width: 140px;
+}
+
+.form__input--text-tel input {
+    text-align: center;
+}
+
+.form__input--text-name {
+    width: 230px;
+}
+
+.form__input--text span {
+    margin: 0 20px;
+    font-size: 10px;
+    color: #8B7969;
+    vertical-align: middle;
+}
+
+.form__input--radio {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 28px;
+}
+
+.form__input--select {
+    width: 500px;
+    height: 28px;
+    text-align: left;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: none;
+    background: #F4F4F4
+}
+
+.form__input--text input {
+    font-size: 10px;
+    color: #8B7969;
+}
+
+.form__input--radio input {
+    margin-left: 10px;
+    accent-color: #8B7969;
+    block-size: 20px;
+}
+
+.form__input--radio label {
+    margin-left: 5px;
+    margin-right: 35px;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: #8B7969;
+}
+
+.form__input--select select {
+    width: 50%;
+    height: 100%;
+    background: #F4F4F4;
+    border: none;
+    font-size: 10px;
+    color: #8B7969;
+}
+
+select:invalid {
+    color: #BEB2A6;
+    /* プレースホルダーの色 */
+}
+
+.form__input--textarea {
+    width: 500px;
+    height: 100px;
+}
+
+.form__input--textarea textarea {
+    resize: none;
+    color: #8B7969;
+    height: 100%;
+    border: none;
+    font-size: 10px;
+    color: #8B7969;
+}
+
+.form__button {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.form__button-submit {
+    width: 15%;
+    height: 30px;
+    margin: 15px 0;
+    background: #8B7969;
+    color: #F4F4F4;
+    border: none;
+    cursor: pointer;
+}
+
+.form__error {
+    color: red;
+    font-size: 10px ;
+}
+

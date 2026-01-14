@@ -1,0 +1,62 @@
+.mdl-contact-table {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.mdl-contact-table__inner {
+    width: 100%;
+}
+
+dialog {
+    width: 700px;
+    height: 600px;
+}
+
+dialog th {
+    color: #8B7969;
+    text-align: left;
+    width: 30%;
+    font-size: 15px;
+}
+
+.mdl-contact-table__text input {
+    width: 70%;
+    color: #8B7969;
+    border: none;
+    margin: 10px 0;
+}
+
+.mdl-contact-table__text textarea {
+    width: 100%;
+    color: #8B7969;
+    border: none;
+    resize: none;
+}
+
+.mdl-contact-table__text-name {
+    display: flex;
+}
+
+.mdl-contact-table__text-name input {
+    width: 20%;
+    color: #8B7969;
+    border: none;
+}
+
+.delete-form__button {
+    text-align: center;
+}
+
+.delete-form__button-submit {
+    margin-top: 30px;
+    background: #BA370D;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 25px;
+}
+
+.close-btn {
+    text-align: right;
+}

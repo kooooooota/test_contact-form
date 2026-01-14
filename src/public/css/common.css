@@ -1,0 +1,36 @@
+.header {
+    background: #ffffff;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    height: 80px;
+    text-align: center;
+    border-bottom: 2px solid #F4F4F4;
+}
+
+.header__logo {
+    color: #8B7969;
+    font-family: century;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.header-nav__form-button {
+    width: 100%;
+    text-align: right;
+    transform: translate(0, -130%);
+}
+
+.header-nav__form-button-submit {
+    background: #F4F4F4;
+    color: #8B7969;
+    text-decoration: none;
+    padding: 5px 25px;
+    font-family: century;
+    border: #8B7969 solid 1px;
+    cursor: pointer;
+}
